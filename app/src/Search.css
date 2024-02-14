@@ -1,0 +1,55 @@
+/* Search.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-bar {
+    text-align: center; /* Align search bar content to the center */
+    margin-bottom: 20px; /* Add margin between search bar and random books */
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+    vertical-align: middle; /* Align input box vertically */
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle; /* Align button vertically */
+}
+
+.random-books {
+    display: flex;
+    justify-content: center; /* Center align random books */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.book-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center; /* Center align book items */
+}
+
+.book-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book-title, .book-author {
+    margin: 5px 0;
+}
